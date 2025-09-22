@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>咀嚼日記</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen flex flex-col items-center justify-center bg-white text-gray-800 px-6">
+    <!-- 標題 -->
+    <h1 class="text-4xl font-bold mb-12">咀嚼日記</h1>
+    <p class="text-lg text-center mb-12">別人的建議不總是適合你。<br>在這裡，你能透過平常的紀錄，累積真正適合你的用餐、聚會  好地點。</p>
+
+    <!-- Play Store 按鈕 -->
+    <button
+      disabled
+      class="px-6 py-3 rounded-2xl bg-gray-300 text-gray-600 cursor-not-allowed mb-12"
+    >
+      Google Play（開發中）
+    </button>
+
+    <!-- 台北人預約說明 -->
+    <div class="max-w-md text-center space-y-12">
+      <p class="text-lg font-semibold">我住臺北，下方可以收到我偶爾一篇的，口袋餐廳推薦 <br>( 200 字以上、品嘗過多道餐點的詳實紀錄) </p>
+      <p class="text-sm text-gray-600">
+
+      </p>
+
+      <form class="flex flex-col sm:flex-row gap-3 mt-4">
+        <input
+          type="email"
+          placeholder="輸入你的 Email"
+          class="flex-1 border border-gray-300 rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400"
+        />
+        <button type="submit" class="px-6 py-2 rounded-xl bg-black text-white">
+          領取
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
